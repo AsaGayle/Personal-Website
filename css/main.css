@@ -1,0 +1,303 @@
+*{
+margin: 0px;
+}
+/********************
+        HEADER
+********************/
+.top-bar {
+    vertical-align: top;
+    height: 550px;
+    background-color: #fff;
+    background-image:url('../img/CityBG4.jpg');
+    background-repeat: no-repeat;
+    background-position: -200px 0px;
+    width: 100% !important;
+    z-index: -5!important;
+}
+.asaCircle {
+    margin-top: 350px;
+    align-content: center;
+    max-width: 300px;
+    z-index: 1;
+    border: 5px solid; color: #fff;
+}
+.below-header {
+    height: 50px;
+    background-color:#282929;
+    margin-bottom: 130px;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.5);
+    z-index: -3;
+}
+.top-head-font{
+    font-size: 70px;
+    color: #fff;
+}
+.top-sub-font {
+    font-family:'Abel',sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.space{
+    padding-bottom: 60px;
+}
+/********************
+        BODY
+********************/
+body {
+    height: 100%;
+    width: auto !important;
+    padding:0;
+}
+#video {
+    margin-top: 40px;
+    margin-left: auto !important;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto !important;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.body-txt{
+    font-size: 15px;
+}
+/*********************
+        FOOTER
+*********************/
+footer {
+    vertical-align: bottom;
+    width:auto !important;
+    height: 175px;
+    background-color:#282929;
+    color: #fff;
+}
+.icon-box-footer{
+    height: 50px;
+    text-align: center;
+}
+.footer-icon-size{
+    font-size: 40px;
+}
+.icon-box{
+    height: 55px;
+    width: 200px;
+    margin: auto;
+}
+.icons{
+    padding: 5px;
+}
+/*********************************
+            ICONS
+*********************************/
+    /***************************
+         Facebook ICON
+    ***************************/
+    #face .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #face .no-fade:hover {
+        color: #3b5998;
+        -webkit-transition: all 0.35s ease; 
+        -moz-transition: all 0.35s ease; 
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+            twitter ICON
+    ***************************/
+    #twit .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #twit .no-fade:hover {
+        color: #00aced;
+        -webkit-transition: all 0.35s ease; 
+        -moz-transition: all 0.35s ease; 
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+         linkedIn ICON
+    ***************************/
+    #linked .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #linked .no-fade:hover {
+        color: #007bb6;
+        -webkit-transition: all 0.35s ease; 
+        -moz-transition: all 0.35s ease; 
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+           github ICON
+    ***************************/
+    #git .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #git .no-fade:hover {
+        color: #6C196C;
+        -webkit-transition: all 0.35s ease; 
+        -moz-transition: all 0.35s ease; 
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+           blogger ICON
+    ***************************/
+    #blog .no-fade {
+    color: white;
+    float:left;
+    margin-bottom: 10px;
+    }
+    #blog .no-fade:hover {
+        color: #fb8f3d;
+        -webkit-transition: all 0.35s ease; 
+        -moz-transition: all 0.35s ease; 
+        -o-transition: all 0.35s ease;
+    }
+/***************************
+            FONTS
+***************************/
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+.fjalla-one {
+    font-family: 'Fjalla One', sans-serif;
+}
+.inconsolata {
+    font-family: 'Inconsolata',;
+}
+.strap-text {
+    color: #5c4283;
+}
+.elusive-text{
+    color: #5c448c;
+}
+.brackets-text{
+    color:#2098f5;
+}
+/***************************
+         ADJUSTMENTS
+***************************/
+.center {
+   margin: 0 auto !important;
+   float: none !important;
+}
+a:hover {
+    text-decoration: none;
+}
+/***************************
+        MEDIA QUERIES
+***************************/
+@media (min-width: 1367px) and (max-width: 1920px){
+    iframe {
+    height:576px;
+    width: 1024px;
+    }
+    .asaCircle{
+        max-width: 340px;
+        margin-top: 100px;
+    }
+    .top-bar{
+    background-position: top;
+        height: 540px;
+    }
+    .below-header{
+        margin-bottom: 140px;
+    }
+    .top-head-font{
+        font-size: 85px;
+    }
+    .top-sub-font{
+        font-size: 35px;
+    }
+
+}
+@media (min-width: 977px) and (max-width: 1366px) {
+    .top-bar {
+        height: 300px;
+    }
+    .below-header {
+        margin-bottom: 180px;
+        width: auto;
+    }
+    .asaCircle {
+        max-width: 270px;
+        margin-top: 10px !important;
+    }
+        iframe {
+    height:576px;
+    width: 1024px;
+    }
+    .space{
+        padding-bottom: 40px;
+    }
+}
+@media(max-width: 976px){
+    .top-bar{
+        background-position: -451px -140px;
+        height: 300px;
+    }
+       .asaCircle {
+        max-width: 240px;
+        margin-top: 10px !important;
+    }
+    iframe {
+    height:432px;
+    width: 768px;
+    }
+    
+}
+@media (min-width: 447px) and (max-width: 769px){
+        .top-bar{
+        background-position: -451px -140px;
+        height: 270px;
+    }
+    .below-header{
+        margin-bottom: 110px;
+    }
+    .asaCircle{
+            max-width: 200px;
+            margin-top: 10px;!important
+    }
+    iframe{
+        height: 315px;
+    width: 100%;
+    }
+}
+@media (max-width: 446px){
+        .top-bar{
+        background-position: -451px -140px;
+        height: 200px;
+    }
+    .space{
+        padding-bottom: 10px;
+    }
+    .top-sub-font{
+        font-size: 19px;
+    }
+    .top-head-font{
+        font-size: 50px;
+    }
+    .below-header{
+        margin-bottom: 100px;
+    }
+    .asaCircle{
+            max-width: 150px;
+            margin-top: 10px;!important
+    }
+    iframe{
+        height: 315px;
+    width: 100%;
+    }
+}
