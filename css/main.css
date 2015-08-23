@@ -23,7 +23,7 @@ margin: 0px;
 }
 .below-header {
     height: 50px;
-    background-color:#282929;
+    background-color:#323330;
     margin-bottom: 130px;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.5);
     z-index: -3;
@@ -38,7 +38,7 @@ margin: 0px;
     color: #fff;
 }
 .space{
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 /********************
         BODY
@@ -47,6 +47,16 @@ body {
     height: 100%;
     width: auto !important;
     padding:0;
+    background: #fff;
+}
+.divider{
+    width: 300px;
+    height: 1px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #video {
     margin-top: 40px;
@@ -59,8 +69,35 @@ body {
     text-align: center;
 }
 .body-txt{
-    font-size: 15px;
+    font-size: 19.2px;
 }
+.image-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+}
+.image-box img {
+    width: 100px;
+    margin: 3px;
+}
+.comp-text {
+    padding-bottom: 20px;
+}
+.phone-text {
+    padding-bottom: 20px;
+}
+/*********************
+        GIST
+*********************/
+    .gist {
+        width:500px !important;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+    .gist-file
+    .gist-data {max-height: 400px;max-width: 700px;}
+
 /*********************
         FOOTER
 *********************/
@@ -68,7 +105,7 @@ footer {
     vertical-align: bottom;
     width:auto !important;
     height: 175px;
-    background-color:#282929;
+    background-color:#323330;
     color: #fff;
 }
 .icon-box-footer{
@@ -80,7 +117,7 @@ footer {
 }
 .icon-box{
     height: 55px;
-    width: 200px;
+    width: 250px;
     margin: auto;
 }
 .icons{
@@ -148,12 +185,12 @@ footer {
     /***************************
            blogger ICON
     ***************************/
-    #blog .no-fade {
+    #mail .no-fade {
     color: white;
     float:left;
     margin-bottom: 10px;
     }
-    #blog .no-fade:hover {
+    #mail .no-fade:hover {
         color: #fb8f3d;
         -webkit-transition: all 0.35s ease; 
         -moz-transition: all 0.35s ease; 
@@ -221,6 +258,14 @@ a:hover {
     .top-sub-font{
         font-size: 35px;
     }
+    .gist {
+        width:700px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .phone-text{
+        display: none;
+    }
 
 }
 @media (min-width: 977px) and (max-width: 1366px) {
@@ -240,7 +285,10 @@ a:hover {
     width: 1024px;
     }
     .space{
-        padding-bottom: 40px;
+        padding: 10px;
+    }
+        .phone-text{
+        display: none;
     }
 }
 @media(max-width: 976px){
@@ -256,7 +304,9 @@ a:hover {
     height:432px;
     width: 768px;
     }
-    
+        .phone-text{
+        display: none;
+    }
 }
 @media (min-width: 447px) and (max-width: 769px){
         .top-bar{
@@ -299,5 +349,17 @@ a:hover {
     iframe{
         height: 315px;
     width: 100%;
+    }
+    .code-samples {
+    display: none;
+    }
+    .image-box {
+        width: 236px;
+    }
+    .image-box img{
+        width: 50px;
+    }
+    .phone-text{
+        display: 
     }
 }
