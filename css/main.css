@@ -80,11 +80,37 @@ body {
     width: 100px;
     margin: 3px;
 }
+.image-box2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.image-box2 img {
+    width: 190px;
+    margin: 3px;
+    padding-left: 10px;
+}
 .comp-text {
     padding-bottom: 20px;
 }
 .phone-text {
     padding-bottom: 20px;
+}
+.faded{
+    opacity: 0.5;
+}
+.zoom {
+    width: 110px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 /*********************
         GIST
@@ -324,6 +350,9 @@ a:hover {
         height: 315px;
     width: 100%;
     }
+    .image-box2 {
+        width: 600px;
+    }
 }
 @media (max-width: 446px){
         .top-bar{
@@ -356,8 +385,14 @@ a:hover {
     .image-box {
         width: 236px;
     }
+     .image-box2 {
+         width: 236px;
+    }
     .image-box img{
         width: 50px;
+    }
+    .image-box2 img{
+        width: 100px;
     }
     .phone-text{
         display: block;
